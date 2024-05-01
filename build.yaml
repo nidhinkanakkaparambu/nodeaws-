@@ -1,0 +1,9 @@
+targets:
+  $default:
+    sources:
+      - "**/*.js"
+    output: "dist/"
+    builders:
+      nodejs_builder:
+        options:
+          compile_commands: ["npm run build"]
